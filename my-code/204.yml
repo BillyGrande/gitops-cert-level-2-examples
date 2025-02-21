@@ -14,7 +14,7 @@ spec:
       - ns: qa
   template:
     metadata:
-      name: '{{.cluster}}-guestbook'
+      name: '{{.ns}}-guestbook'
     spec:
       project: default
       source:
