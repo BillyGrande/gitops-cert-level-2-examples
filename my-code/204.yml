@@ -12,7 +12,7 @@ spec:
       - ns: qa
   template:
     metadata:
-      name: '{{ns}}-guestbook'
+      name: '{{ns}}'
     spec:
       project: default
       source:
